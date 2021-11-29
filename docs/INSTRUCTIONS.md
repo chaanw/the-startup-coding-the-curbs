@@ -8,7 +8,7 @@ Deze leertaak hoort bij sprint The Startup. Dit is een autonomous leertaak die j
 ## Briefing
 Het Zelftest App project is een samenwerking tussen Streeklab Haarlem en verschillende instanties binnen de HvA (Smart Asset Management Lab, HBO-ICT, CMD en FDND).
 
-De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campagne website om de App te kunnen promoten en de campagne website moet voldoen aan de huisstijl en moet responsive zijn. Een eerste prototype van de campagne site is gebouwd. Verbeter de flow van de (inline navigatie) van de landingspagina en de navigatie naar de detailpagina's.
+De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campagne website om de App te kunnen promoten en de campagne website moet voldoen aan de huisstijl en moet responsive zijn. Ontwerp en bouw de campagne website voor de Zelftest App
 
 ## Doel van deze opdracht
 Je leert hoe je het campagne website ontwerpt en maakt voor een startende ondernemeing.
