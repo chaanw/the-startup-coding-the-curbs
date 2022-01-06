@@ -1,6 +1,6 @@
 # Redesign Coding the Curbs Website 
 
-![Coding the Curbs](https://github.com/fdnd-task/the-startup-coding-the-curbs/blob/a51f9a8839b71381d9d4fae95579c0644acaabaa/docs/Coding%20the%20Curbs%20-%20Illustratie%2005.jpeg | width=500)
+![Coding the Curbs](https://github.com/fdnd-task/the-startup-coding-the-curbs/blob/a51f9a8839b71381d9d4fae95579c0644acaabaa/docs/Coding%20the%20Curbs%20-%20Illustratie%2005.jpeg = 500x)
 
 ## Context
 Deze leertaak hoort bij sprint The Startup. Dit is een autonomous leertaak die je individueel uitvoert voor Coding the Curbs.
