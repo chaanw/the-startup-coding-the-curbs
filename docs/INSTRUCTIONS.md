@@ -1,17 +1,17 @@
-# Zelftest App Campagne Website 
+# Redesign Coding the Curbs Website 
 
-Ontwerp en maak de campagne website voor de Zelftest App
+Redesign de website voor Coding the Curbs
 
 ## Context
-Deze leertaak hoort bij sprint The Startup. Dit is een autonomous leertaak die je individueel uitvoert voor de Zelftest App.
+Deze leertaak hoort bij sprint The Startup. Dit is een autonomous leertaak die je individueel uitvoert voor Coding the Curbs.
 
 ## Briefing
-Het Zelftest App project is een samenwerking tussen Streeklab Haarlem en verschillende instanties binnen de HvA (Smart Asset Management Lab, HBO-ICT, CMD en FDND).
+Coding the Curbs is een start-up die sinds januari 2020 werkt aan het slimmer maken van de steden. Door de ruimte in een stad te 'coderen' is het mogelijk om plekken diverse functies te laten vervullen op verschillende momenten. Denk daarbij aan een parkeerplek die ruimte biedt voor laden & lossen doordeweeks, en voor terrassen in het weekend. Sinds onze start zijn wij een stuk verder met het ontwikkelen van ons product.  
 
-De Zelftest App zit momenteel in de designfase, en er is behoefte aan een campagne website om de App te kunnen promoten en de campagne website moet voldoen aan de huisstijl en moet responsive zijn. Ontwerp en bouw de campagne website voor de Zelftest App
+Vanaf begin 2022 zullen wij ons product in een aantal Nederlandse steden op straat zetten. Helaas laat onze website op dit moment niet goed zien wie we zijn, wat wij doen en waar we op dit moment mee bezig zijn. Het ontwerp mag spannender, opvallender en visueler. Tijdens deze opdracht zal je met onze input en nieuwe materialen werken aan een herontwerp van de Coding the Curbs website. 
 
 ## Doel van deze opdracht
-Je leert hoe je het campagne website ontwerpt en maakt voor een startende ondernemeing.
+Je leert hoe je een presentatie website voor een concept van een startende onderneming (her)ontwerpt en maakt.
 
 ## Planning
 
