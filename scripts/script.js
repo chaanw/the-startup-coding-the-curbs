@@ -8,13 +8,19 @@ let circle = document.querySelector(".circle");
 circle.style.draggable = true;
 
 circle.ondrag = function(event){
+    console.log('dragging')
     maskContainer.style.width = event.pageX + "px";
     border.style.left = event.pageX + "px";
     circle.style.left = event.pageX + "px";
 }
 
 circle.ondragend = function(event){
+    console.log('end dragging')
     maskContainer.style.width = event.pageX + "px";
     border.style.left = event.pageX + "px";
     circle.style.left = event.pageX + "px";
 }
+
+
+
+
