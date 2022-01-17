@@ -4,13 +4,14 @@ let maskImageContainer = document.querySelector('.mask-image-container')
 
 let border = document.querySelector('.border')
 let circle = document.querySelector('.circle')
+let body = document.querySelector('body')
 
 circle.style.draggable = true
 
 circle.addEventListener('mousedown', () => {
-  circle.addEventListener('mousemove', moveSlider)
-  circle.addEventListener('mouseup', () => {
-    circle.removeEventListener('mousemove', moveSlider)
+  body.addEventListener('mousemove', moveSlider)
+  body.addEventListener('mouseup', () => {
+    body.removeEventListener('mousemove', moveSlider)
   })
 })
 
