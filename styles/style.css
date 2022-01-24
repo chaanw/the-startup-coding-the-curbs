@@ -150,7 +150,7 @@ ul li{
   }
   
   .wave {
-    background: url(/assets/wavy.svg) repeat-x; 
+    background: url(../assets/wavy.svg) repeat-x; 
     position: absolute;
     top: -198px;
     width: 6400px;
