@@ -1,13 +1,214 @@
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-shadow:0px 4px 4px #00000025;    
+    height: 5em;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 999;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1, h2 {
+    font-family: "Rajdhani", sans-serif;
+    color: #101737;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+a, p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-top: 10px;
+    color: #101737;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ul li{
+    padding: 10px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.logo-wrapper img {
+    width: 11em;
+    height: auto;
+}
+
+.header-wrapper {
+    margin: auto;
+    width: 71.25em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    padding: 0.8rem 1.6rem;
+    margin: auto 1.25em;
+    border-radius: 2rem;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(to right, #524DD0, #84389E);
+}
+
+.hero {
+    margin: 40px auto 30px auto;
+    position: relative;
+
+}
+
+.hero-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 16px;
+    width: 71.25em;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.hero-container h1, .hero-container h2, .hero-container p{
+    grid-column: 1 / 8;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hero-container p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-container img {
+    grid-row: 1 / 5;
+    grid-column: 8 / 13;
+    display: block;
+    margin-left: auto;
+    box-shadow:-30px 30px 0px #4f55c250;
+}
+
+.hero-container > h1 {
+    font-size: 4em;
+}
+
+.hero-container > h1 > span {
+    color: #4F55C2;
+}
+
+.hero-container button {
+    grid-column: 1 / 4;
+    width: 130px;
+    margin: 20px 0;
+    margin-top: 40px;
+}
+
+.ocean { 
+    height: 5%;
+    width:100%;
+    position:absolute;
+    bottom:-50px;
+    left:0;
+    z-index: -1;
+    
+  }
+  
+  .wave {
+    background: url(/assets/wavy.svg) repeat-x; 
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+  }
+  
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+  
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-25px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
+
+.hoewerkthet-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#4f55c2 65%, #ffffff 35%);
+}
+
+.hoewerkthet-container > h2, .hoewerkthet-container p {
+    color: #fff;
+    margin: 10px;
+}
+
+video {
+    width: 71.25em;
+    box-shadow:0px 4px 4px #00000025; 
+    margin-top: 30px;   
+}
+
 .container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-image: url(../assets/ctc-illustration-after.jpg);
     background-position: center center;
     background-size: cover;
@@ -27,7 +228,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-image: url(../assets/ctc-illustration-before.jpg);
     background-position: center center;
@@ -40,7 +241,7 @@
     height: 100vh;
     left: 50%;
     margin-left: -2px;
-    background-color: #000;
+    background-color: #000000;
 }
 
 .circle {
@@ -48,8 +249,8 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #fff;
-    border: 3px solid #000;
+    background: #ffffff;
+    border: 3px solid #000000;
     top: 50%;
     margin-top: -25px;
     left: 50%;

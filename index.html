@@ -2,29 +2,123 @@
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+   
     <title>Coding the Curbs</title>
+
 </head>
 
+
 <body>
+    
+    <header>
+        <div class="header-wrapper">
 
-    <div class="container">
-
-        <div class="mask-container">
-
-            <div class="mask-image-container">
+            <div class="logo-wrapper">
+                <a href="index.html">
+                    <img src="assets/CTC_Primary_Logo_Black.png" alt="Logo"/>
+                </a>
             </div>
 
-        </div>
+            <nav class="nav-menu">
+                
+                <ul>
 
-        <div class="border"></div>
-        <div class="circle">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 -3 43 50"><path fill="#000" d="M13 21l-5-5 5-5m6 0l5 5-5 5"/></svg>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Updates</a>
+                    </li>
+                    <li>
+                        <a href="">Over ons</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+
+                    <button class="btn btn-primary">Sluit je aan</button>
+
+                    <div class="nav-menu-language">
+                        <ul>
+                            <li>
+                                <a href="">NL</a>
+                            </li>
+                            <hr width="1" size="20" color="black">
+                            <li>
+                                <a href="">EN</a>
+                            </li>
+                        </ul>    
+                    </div>
+
+                </ul>
+
+            </nav>
+
         </div>
-    </div>
+        
+    </header>
+
+    <main>
+    
+        <section class="hero">
+
+            <div class="hero-container">
+                <h1>Coding the <span>Curbs</span></h1>
+                <h2>De kracht van meervoudig ruimtegebruik</h2>
+                <p>Een oplossing die een digitale laag over de fysieke <br>
+                    infrastructuur legt en zo de stad klaarstoomt voor de toekomst.</p>
+                <button class="btn btn-primary">Sluit je aan</button>
+                <img src="/assets/CTC_no_logo38.JPG" width="400">
+                <div class="ocean">
+                    <div class="wave"></div>
+                    <div class="wave"></div>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <section class="container">
+
+            <div class="mask-container">
+                <div class="mask-image-container"></div>
+            </div>
+
+            <div class="border"></div>
+            
+            <div class="circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 -3 43 50"><path fill="#000" d="M13 21l-5-5 5-5m6 0l5 5-5 5"/></svg>
+            </div>
+
+        </section>
+
+        <section class="hoewerkthet">
+
+            <div class="hoewerkthet-container">
+
+                <h2>Hoe werkt het?</h2>
+                <p>Gebruik de slider hierboven om te zien hoe Coding the Curbs het verschil kan maken</p>
+                <p>Door straten, buurten en wijken te digitaliseren kan de ruimte in de stad slimmer worden gebruikt en ingedeeld.<br>
+                    Gedurende de week kan een straat verschillende functies vervullen. Doordeweeks is er bijvoorbeeld plek voor<br>
+                    laden en lossen, in het weekend is er ruimte voor recreatie.</p>
+                <video controls>
+                    <source src="assets/Vooruit met de Stad - Demo Amersfoort - 720p.mov">
+                </video>
+            </div>
+
+        </section>
+    </main>
 
     <script src="scripts/script.js"></script>
+
 </body>
