@@ -3,7 +3,7 @@ header {
     align-items: center;
     width: 100%;
     box-shadow:0px 4px 4px #00000025;    
-    height: 5em;
+    height: 5.5em;
     font-size: 1rem;
     position: sticky;
     top: 0;
@@ -11,11 +11,17 @@ header {
     z-index: 999;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+
 body {
     overflow-x: hidden;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: "Rajdhani", sans-serif;
     color: #101737;
 }
@@ -31,6 +37,7 @@ h2 {
 a, p{
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    font-weight: 300;
     line-height: 1.4em;
     margin-top: 10px;
     color: #101737;
@@ -50,16 +57,37 @@ a {
     overflow: hidden;
 }
 
-ul li{
+.nav-menu ul li{
     padding: 10px;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.nav-item:hover{
+    color: #4F55C2
 }
 
+.nav-item:before {
+    content: "[ ";
+  }
+  
+  .nav-item:after {
+    content: " ]";
+  }
+  
+  .nav-item:before,
+  .nav-item:after {
+    position: relative;
+    top: 2px;
+    font-size: 1.5em;
+    opacity: 0;
+    color: #000000;
+    transition: all .5s;
+  }
+  
+  .nav-item:hover:before,
+  .nav-item:hover:after {
+    opacity: 0.7;
+  }
+  
 .logo-wrapper img {
     width: 11em;
     height: auto;
@@ -81,12 +109,22 @@ ul li{
 .btn-primary {
     font-family: "Roboto", sans-serif;
     font-size: 1em;
+    font-weight: 300;
     padding: 0.8rem 1.6rem;
     margin: auto 1.25em;
     border-radius: 2rem;
     border: none;
     color: #fff;
-    background-image: linear-gradient(to right, #524DD0, #84389E);
+    background-size: 400%;
+    background-image: linear-gradient(60deg, #524DD0, #84389E, #cf58f7, #84389E, #524DD0);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-position: right center;
+    transform: scale(1.05);
+    opacity: 0.9;
 }
 
 .hero {
@@ -113,7 +151,7 @@ ul li{
 
 .hero-container p {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .hero-container img {
@@ -121,11 +159,13 @@ ul li{
     grid-column: 8 / 13;
     display: block;
     margin-left: auto;
+    margin-top: 50px;
     box-shadow:-30px 30px 0px #4f55c250;
 }
 
 .hero-container > h1 {
     font-size: 4em;
+    margin-top: 50px;
 }
 
 .hero-container > h1 > span {
@@ -137,6 +177,7 @@ ul li{
     width: 130px;
     margin: 20px 0;
     margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .ocean { 
@@ -183,26 +224,40 @@ ul li{
     }
   }
 
-.hoewerkthet-container {
+.hoewerkthet {
     display: flex;
     flex-direction: column;
     margin: auto;
-    margin-bottom: 30px;
     padding-top: 30px;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(#4f55c2 65%, #ffffff 35%);
+    background-color: #4F55C2;
 }
 
-.hoewerkthet-container > h2, .hoewerkthet-container p {
+.hoewerkthet > h2, .hoewerkthet p {
     color: #fff;
     margin: 10px;
 }
 
-video {
-    width: 71.25em;
-    box-shadow:0px 4px 4px #00000025; 
-    margin-top: 30px;   
+.useSlider {
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+.hoewerkthet::after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #4F55C2;
+    position: absolute;
+    top: 90%;
+    z-index: 3;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
 }
 
 .container {
@@ -273,4 +328,26 @@ video {
   top: 75%;
   left: 75%;
   transform: translate(-50%, -50%);
+}
+
+.onzemissie {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(#4f55c2 65%, #ffffff 35%);
+}
+
+.onzemissie > h2, .onzemissie > h3, .onzemissie p {
+    color: #fff;
+    margin: 10px;
+}
+
+video {
+    width: 71.25em;
+    box-shadow:0px 4px 4px #00000025; 
+    margin-top: 30px;   
 }

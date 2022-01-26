@@ -9,16 +9,16 @@ let body = document.querySelector('body')
 circle.style.draggable = true
 
 circle.addEventListener('mousedown', () => {
-  body.addEventListener('mousemove', moveSlider)
-  body.addEventListener('mouseup', () => {
+    body.addEventListener('mousemove', moveSlider)
+    body.addEventListener('mouseup', () => {
     body.removeEventListener('mousemove', moveSlider)
-  })
+    })
 })
 
 function moveSlider(event) {
-  maskContainer.style.width = event.pageX + 'px'
-  border.style.left = event.pageX + 'px'
-  circle.style.left = event.pageX + 'px'
+    maskContainer.style.width = event.pageX + 'px'
+    border.style.left = event.pageX + 'px'
+    circle.style.left = event.pageX + 'px'
 }
 
 // circle.ondrag = function(event){
@@ -34,3 +34,4 @@ function moveSlider(event) {
 //     border.style.left = event.pageX + "px";
 //     circle.style.left = event.pageX + "px";
 // }
+
