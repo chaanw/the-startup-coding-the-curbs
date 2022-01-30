@@ -1,16 +1,19 @@
 # Coding the Curbs redesign
-![mockup](https://user-images.githubusercontent.com/90189679/151718545-315bb5a2-7886-4274-b7e2-9b92a6c5100f.png)
+
+https://chaanw.github.io/the-startup-coding-the-curbs/
+
+![mockup](https://user-images.githubusercontent.com/90189679/151720324-74f23e4b-0ebc-40f3-a785-ff45efeb3b52.png)
 
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
   * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
+
 De huidige website van [Coding the Curbs](https://www.codingthecurbs.com/) is gemaakt toen het nog alleen een concept was. Inmiddels zijn er nieuwe materialen bij gekomen, meer content en is de huisstijl verder uitgewerkt. Hierdoor is de website niet meer up-to-date en laat het niet goed zien wie ze zijn, wat ze doen en waar ze op dit moment mee bezig zijn. Aan ons de taak om de website te herontwerpen waarbij dit wel duidelijk naar voren komt, met als pijler dat er meer interactie op de website komt
 
 ## Kenmerken
