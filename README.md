@@ -1,6 +1,5 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-
 # Coding the Curbs redesign
+![mockup](https://user-images.githubusercontent.com/90189679/151718545-315bb5a2-7886-4274-b7e2-9b92a6c5100f.png)
 
 ## Inhoudsopgave
 
