@@ -11,12 +11,10 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+De huidige website van [Coding the Curbs](https://www.codingthecurbs.com/) is gemaakt toen het nog alleen een concept was. Inmiddels zijn er nieuwe materialen bij gekomen, meer content en is de huisstijl verder uitgewerkt. Hierdoor is de website niet meer up-to-date en laat het niet goed zien wie ze zijn, wat ze doen en waar ze op dit moment mee bezig zijn. Aan ons de taak om de website te herontwerpen waarbij dit wel duidelijk naar voren komt, met als pijler dat er meer interactie op de website komt
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
 ### Tools gebruikt:
 * Figma
 * Visual Studio Code
@@ -27,10 +25,15 @@
 * JavaScript
 
 ## Installatie
-
-## Gebruik
+1. Clone of download deze respository.
+2. Ga naar de root directory van het project.
+3. Open het index.html bestand. Hierdoor wordt de website geopend.
 
 ## Bronnen
+
+### Fonts
+* https://fonts.google.com/specimen/Rajdhani
+* https://fonts.google.com/specimen/Roboto
 
 ## Licentie
 
